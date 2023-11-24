@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors') 
 module.exports = {
   content: [
     './components/**/*.{html,js}',
@@ -28,6 +29,8 @@ module.exports = {
     'dark-20':'#474747',
     'dark-30':'#EBE9EA',
     'dark-40':'#F9F9F9',
+
+    red: colors.red
     },
     fontFamily: {
       mont: ['Montserrat', 'sans-serif']

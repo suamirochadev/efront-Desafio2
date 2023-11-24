@@ -29,13 +29,14 @@
   <!-- Header fim -->
   <!-- Hero inicio -->
   <section>
-    <div class="bg-hero h-96 w-full bg-no-repeat object-cover sm:bg-hero-desktop flex flex-col justify-center items-center">
-      <h1 class="text-dark-40 font-bold text-3xl p-3 text-center">
-        A melhor loja de Jordan
-      </h1>
-      <p class="text-dark-40 font-semibold text-base text-center">
-        O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o jogador Michael Jordan.
-      </p>
+    <div class="bg-hero h-96 w-full bg-no-repeat object-cover sm:bg-hero-desktop flex flex-col justify-center items-center lg:items-start lg:pl-28">
+      <h1 class="text-dark-40 font-bold text-3xl pb-3 text-center">
+        A melhor loja de Jordan</h1>
+      <p id="typed" class="text-dark-40 font-semibold text-base text-center"></p>
+      <div id="typed-strings" class="">
+        <p class="text-dark-40 font-semibold text-base text-center">
+          O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o jogador Michael Jordan.</p>
+      </div>
     </div>
   </section>
   <!-- Hero fim -->
@@ -48,65 +49,105 @@
         Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado. 
       </p>
     </div>
+
+    <!-- ===========================Tentativa e erro============================================= -->
       <!-- PPRODUCTS inicio-->
-      <div class="flex flex-wrap items-center justify-center py-12 px-5 min-w-fit w-full">
+      <!-- <div class="flex flex-wrap items-center justify-center mx-5 py-12"> -->
+      <!-- <div class="grid grid-cols-1 gap-y-10 mx-5 my-5 md:grid-cols-3 md:gap-x-10">
         <!-- Card product inicio -->
-        <div class="flex rounded bg-dark-30 ">
-          <div class="flex items-center justify-center cursor-pointer w-80 h-80 p-5 ">
+        <!-- <div class=" rounded bg-dark-30 my-10 mx-5">
+          <div class=" items-center justify-center cursor-pointer h-80 mx-5 py-5 ">
             <img src="/assets/1.png" alt="Jordan Green" class=" h-auto hover:scale-125 ">
           </div>
-        </div>
-        <!-- Card produtc fim -->
-        <!-- Tenis 2 inicio -->
-        <div class="flex bg-dark-30  rounded my-12 mx-5">
-          <div class="flex items-center justify-center cursor-pointer w-80 h-80 p-5 ">
-            <img src="/assets/2.png" alt="Jordan Gray" class="h-auto hover:scale-125 ">
+        </div> --> 
+
+        <!-- Grid  inicio-->
+        <!-- <div class="grid grid-cols-1 gap-y-10 mx-5 my-5 md:grid-cols-3 md:gap-x-10  "> 
+          <div class="">
+            <img src="/assets/1.png" alt="Jordan Green" class=" h-auto hover:scale-125 cursor-pointer bg-dark-10">
           </div>
-        </div>
-        <!-- Tenis 2 fim -->
-        <!-- Tenis 3 inicio -->
-        <div class="flex bg-[#EBE9EA]  rounded my-12 mx-5">
-          <div class="flex items-center justify-center cursor-pointer w-80 h-80 p-5 ">
-            <img src="/assets/3.png" alt="Jordan White" class=" h-auto hover:scale-125 ">
+          <div class="">
+            <img src="/assets/1.png" alt="Jordan Green" class=" h-auto hover:scale-125 cursor-pointer bg-dark-10">
           </div>
-        </div>
-        <!-- Tenis 3 fim -->
-        <!-- Tenis 4 inicio -->
-        <div class="flex bg-[#EBE9EA]  rounded my-12 mx-5">
-          <div class="flex items-center justify-center cursor-pointer w-80 h-80 p-5 ">
-            <img src="/assets/4.png" alt="Jordan Cinza" class=" h-auto hover:scale-125 ">
+          <div class="">
+            <img src="/assets/1.png" alt="Jordan Green" class=" h-auto hover:scale-125 cursor-pointer bg-dark-10">
+          </div> -->
+          <!-- Grid fim -->
+
+          <!-- Flex inicio - produtos -->
+        <!-- <div class="w-full space-y-5 px-3 md:flex md:flex-wrap sm:space-y-0"> -->
+          <!-- ============================================================================ -->
+
+          <div class="flex flex-wrap justify-center items-center gap-4 mb-5 lg:mb-10">
+            <!-- Tenis 1 inicio -->
+            <div id=".container" class="bg-dark-30 cursor-pointer rounded">
+              <img src="/assets/1.png" alt="Jordan Gray" class="h-auto w-80 px-20 py-[4.75rem] hover:scale-110 transition-all">
+            </div>
+            <!-- Tenis 1 fim -->
+            <!-- Tenis 2 inicio -->
+            <div class="bg-dark-30 cursor-pointer rounded">
+              <img src="/assets/2.png" alt="Jordan Gray" class="h-auto w-80 px-20 py-[4.75rem] hover:scale-110 transition-all">
+            </div>
+            <!-- Tenis 2 fim -->
+            <!-- Tenis 3 inicio -->
+            <div class="bg-dark-30 cursor-pointer rounded">
+              <img src="/assets/3.png" alt="Jordan Gray" class="h-auto w-80 px-20 py-[4.75rem] hover:scale-110 transition-all">
+            </div>
+            <!-- Tenis 3 fim -->
+            <!-- Tenis 4 inicio -->
+            <div class="bg-dark-30 cursor-pointer rounded">
+                <img src="/assets/4.png" alt="Jordan Gray" class="h-auto w-80 px-20 py-[4.75rem] hover:scale-110 transition-all">
+            </div> 
+            <!-- Tenis 4 fim -->
           </div>
-        </div>
-        <!-- Tenis 4 fim -->
-        <!-- Tenis 5 inicio -->
-        <div class="flex bg-[#EBE9EA]  rounded my-12 mx-5">
-          <div class="flex items-center justify-center cursor-pointer w-80 h-80 p-5 ">
-            <img src="/assets/5.png" alt="Jordan Vinho" class=" h-auto hover:scale-125 ">
+          <div class="flex flex-wrap justify-center items-center gap-4 mb-5 lg:mb-10">
+
+            <!-- Tenis 5 inicio -->
+            <div class="bg-dark-30 cursor-pointer rounded">
+                <img src="/assets/5.png" alt="Jordan Gray" class="h-auto w-80 px-20 py-[4.75rem] hover:scale-110 transition-all">
+              </div>
+            <!-- Tenis 5 fim -->
+            <!-- Tenis 6 inicio -->
+            <div class="bg-dark-30 cursor-pointer rounded">
+                <img src="/assets/6.png" alt="Jordan Gray" class="h-auto w-80 px-20 py-[4.75rem] hover:scale-110 transition-all">
+              </div>
+            <!-- Tenis 6 fim -->
+            <!-- Tenis 7 inicio -->
+            <div class="bg-dark-30 cursor-pointer rounded">
+                <img src="/assets/7.png" alt="Jordan Gray" class="h-auto w-80 px-20 py-[4.75rem] hover:scale-110 transition-all">
+              </div>
+            <!-- Tenis 7 fim -->
+            <!-- Tenis 8 inicio -->
+            <div class="bg-dark-30 cursor-pointer rounded">
+              <img src="/assets/8.png" alt="Jordan Gray" class="h-auto w-80 px-20 py-[4.75rem] hover:scale-110 transition-all">
+            </div> 
+            <!-- Tenis 8 fim -->
           </div>
-        </div>
-        <!-- Tenis 5 fim -->
-        <!-- Tenis 6 inicio -->
-        <div class="flex bg-[#EBE9EA]  rounded my-12 mx-5">
-          <div class="flex items-center justify-center cursor-pointer w-80 h-80 p-5 ">
-            <img src="/assets/6.png" alt="Jordan Laranja" class=" h-auto hover:scale-125 ">
-          </div>
-        </div>
-        <!-- Tenis 6 fim -->
-        <!-- Tenis 7 inicio -->
-        <div class="flex bg-[#EBE9EA]  rounded my-12 mx-5">
-          <div class="flex items-center justify-center cursor-pointer w-80 h-80 p-5 ">
-            <img src="/assets/7.png" alt="Jordan Off White" class=" h-auto hover:scale-125 ">
-          </div>
-        </div>
-        <!-- Tenis 7 fim -->
-        <!-- Tenis 8 inicio -->
-        <div class="flex bg-[#EBE9EA]  rounded my-12 mx-5">
-          <div class="flex items-center justify-center cursor-pointer w-80 h-80 p-5 ">
-            <img src="/assets/8.png" alt="Jordan Black" class=" h-auto hover:scale-125 ">
-          </div>
-        </div>
-        <!-- Tenis 8 fim -->
+        <!-- Flex fim - produtos -->
+
+        <!-- Footer inicio -->
+        <footer class="bg-dark-10 w-full py-3 px-[4.813rem] lg:py-5 lg:px-[51.875] fixed">
+          <p class="text-dark-40 font-bold text-center">©️ Todos os direitos reservados. 🤍 Feito por Suami Rocha</p>
+        </footer>
+        <!-- Footer fim -->
       </div>
   </main>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="/js/script.js"></script>
+  <script src="/js/typed.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="/js/scroll.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12">
+    var typed = new Typed('#typed', {
+      stringsElement: '#typed-string',
+      typeSpeed: 30
+    });
+  </script> -->
+    
+<!-- var typed = new Typed('.element', {
+  strings: ["First sentence.", "Second sentence."],
+  typeSpeed: 30
+}); -->
 </body>
 </html>
