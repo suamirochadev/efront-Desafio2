@@ -21,7 +21,7 @@ O eFront é um material de ensino de frontend onde é ensinado as tecnologias ma
 - [x]  Você pode assistir a live: [Dia 1](https://www.twitch.tv/videos/1983694964)
 
 # Deploy - Site
-[Clique aqui e confira!](https://peaceful-cassata-78caf5.netlify.app/)
+[Clique aqui e confira!]()
 
 
 # Autora
