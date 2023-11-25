@@ -13,14 +13,14 @@ O eFront é um material de ensino de frontend onde é ensinado as tecnologias ma
 # Desafio 1 - Blog
 
 <a href="https://iuricode.com/efront/">
-  <img src="https://media.discordapp.net/attachments/1102358848750231604/1176698264058335394/image.png?ex=656fd0a8&is=655d5ba8&hm=31dafd9b3d59a56f82251ce0e06d4f734f11a1f8aba80eba1b3c9c194bf2fb49&=&width=727&height=468")
+  <img src="https://media.discordapp.net/attachments/1102358848750231604/1176698264058335394/image.png?ex=656fd0a8&is=655d5ba8&hm=31dafd9b3d59a56f82251ce0e06d4f734f11a1f8aba80eba1b3c9c194bf2fb49&=&width=727&height=468"
 " alt="IUI do desafio um do ebook eFront"/>
 </a>
 
 ## Processo
-- [x]  Você pode assistir a live: [Dia 1](https://www.twitch.tv/videos/1983694964)
+- [x]  Você pode assistir a live: [Dia 1](https://www.twitch.tv/suamirochadev/schedule?vodID=1983694964)
 - [x]  Você pode assistir a live: [Dia 2](https://www.twitch.tv/suamirochadev/schedule?vodID=1985418478)
-- [x]  Você pode assistir a live: [Dia 3]()
+- [x]  Você pode assistir a live: [Dia 3](https://www.twitch.tv/suamirochadev/schedule?vodID=1986099654)
 
 # Deploy - Site
 [Clique aqui e confira!](https://peaceful-cassata-78caf5.netlify.app/)
