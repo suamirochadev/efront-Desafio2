@@ -10,11 +10,11 @@ O eFront é um material de ensino de frontend onde é ensinado as tecnologias ma
   <img src="https://cdn.discordapp.com/attachments/1102358848750231604/1175981959336448153/ClickIuricode.png?ex=656d358b&is=655ac08b&hm=b84c7562f402432b3ab99337e07f7fe5baaff73eb9b9e87683ffeda6fe70af8b" alt="Iuricode Frontend e Ui Dev. Clique para ir para o site" width="300px" />
 </a>
 
-# Desafio 1 - Blog
+# Desafio 2 - Jordan Shoes
 
 <a href="https://iuricode.com/efront/">
   <img src="https://media.discordapp.net/attachments/1102358848750231604/1176698264058335394/image.png?ex=656fd0a8&is=655d5ba8&hm=31dafd9b3d59a56f82251ce0e06d4f734f11a1f8aba80eba1b3c9c194bf2fb49&=&width=727&height=468"
-" alt="IUI do desafio um do ebook eFront"/>
+" alt="UI do desafio um do ebook eFront"/>
 </a>
 
 ## Processo
